@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Schagges Community + Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      12
-// @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
-// @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh, 3v1LDead
+// @version      13
+// @description  try to take over the canvas! Combination of Schagges, Bonjwa and r/placeDE template
+// @author       Chris-GW + nama17 + Kloroller_DE + vertigo + Sockenschuh (for Bonjwa), 3v1LDead (for Schagges)
 // @match        https://garlic-bread.reddit.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=oskarpannier.com
 // @updateURL    https://github.com/3v1LDead/rplace/raw/main/overlay.user.js

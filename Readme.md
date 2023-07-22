@@ -2,12 +2,12 @@
 
 **1. Installieren der Browsererweiterung [Tampermonkey](https://tampermonkey.net)**
 
-**2. Installieren des [Scripts](https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js)**
+**2. Installieren des [Scripts](https://github.com/3v1LDead/rplace/raw/main/overlay.user.js)**
 
 
 ## Hinzufügen neuer Bilder
 
-**1. Bild in bonjwa-Ordner hinzufügen mit Dateiname:** 
+**1. Bild in png-Ordner hinzufügen mit Dateiname:** 
 
 _beispiel.png_ mit transparentem Hintergrund und KEINEM leeren Rand.\
 Das Bild muss 1:1 das Pixelart sein und nur aus den vorgegebenen Farben von Reddit bestehend
@@ -17,7 +17,7 @@ Das Bild muss 1:1 das Pixelart sein und nur aus den vorgegebenen Farben von Redd
 ```toml
 [[structure]]
 name = "beispiel"
-file = "bonjwa/beispiel.png"
+file = "png/beispiel.png"
 startx = 1234 #x-Koordinate
 starty = 5678 #y-Koordinate
 priority = 2
