@@ -5,7 +5,6 @@ ignore_colors = [
 
 # priority: higher number = higher chance of being placed
 # r/placeDE overlay target: https://place.army/overlay_target.png
-# r/ukPlace overlay target: https://placeuk.g3v.co.uk/template/ukplace
 
 [versions]
 "browser" = 20
@@ -18,182 +17,16 @@ ignore_colors = [
 "2" = 5
 "3" = 10
 
-# region right side
-
 [[structure]]
-name = "flaguk"
-file = "bonjwa/uk_flag_pixelart.png"
-startx = 666
-starty = 170
+name = "otti1"
+file = "png/otti1.png"
+startx = 221
+starty = -290
 priority = 10
 
 [[structure]]
-name = "bonjwa-logo29"
-file = "bonjwa/Bonjwa_Logo_29x29.png"
-startx = 782
-starty = 134
+name = "otti2"
+file = "png/otti2.png"
+startx = -711
+starty = -366
 priority = 10
-
-[[structure]]
-name = "bonjwa-matteo-marius"
-file = "bonjwa/Matteo-Marius-NeuerAlsNeu.png"
-startx = 703
-starty = 115
-priority = 5
-
-[[structure]]
-name = "prinz"
-file = "bonjwa/prinz3.png"
-startx = 666
-starty = 131
-priority = 1
-
-[[structure]]
-name = "bonjwa-peepo2"
-file = "bonjwa/peepo-1px-breiter.png"
-startx = 688
-starty = 132
-priority = 1
-
-[[structure]]
-name = "kekluckeye"
-file = "bonjwa/auge.png"
-startx = 710
-starty = 156
-priority = 1
-
-[[structure]]
-name = "FlagArmenia"
-file = "bonjwa/armenia_flag.png"
-startx = 666
-starty = 157
-priority = 1
-
-[[structure]]
-name = "HeartArmenia"
-file = "bonjwa/heart_bonjwa_armenia.png"
-startx = 698
-starty = 154
-priority = 1
-
-[[structure]]
-name = "HeartUK"
-file = "bonjwa/Herz.png"
-startx = 781
-starty = 167
-priority = 2
-
-[[structure]]
-name = "HeartDE"
-file = "bonjwa/deheart.png"
-startx = 820
-starty = 134
-priority = 2
-
-[[structure]]
-name = "touri"
-file = "bonjwa/Touri_AndiDesign_11x14_Twitter_Rosa.png"
-startx = 810
-starty = 155
-priority = 10
-
-# endregion
-
-# region left side
-
-[[structure]]
-name = "greenbg"
-file = "bonjwa/greenbg.png"
-startx = 188
-starty = 133
-priority = 2
-
-[[structure]]
-name = "rightuppercornergreenbg"
-file = "bonjwa/greenbg_right_upper_corner.png"
-startx = 253
-starty = 133
-priority = 2
-
-[[structure]]
-name = "helm"
-file = "bonjwa/helm.png"
-startx = 204
-starty = 162
-priority = 2
-
-#[[structure]]
-#name = "hugo"
-#file = "bonjwa/hugo.png"
-#startx = 301
-#starty = 172
-#priority = 3
-
-[[structure]]
-name = "bonjwa-rad"
-file = "bonjwa/BonjwaRad.png"
-startx = 273
-starty = 134
-priority = 10
-
-[[structure]]
-name = "gans"
-file = "bonjwa/Gans_gespiegelt.png"
-startx = 215
-starty = 133
-priority = 3
-
-[[structure]]
-name = "phunk"
-file = "bonjwa/phunkmitmops.png"
-startx = 214
-starty = 157
-priority = 2
-
-[[structure]]
-name = "pyramid"
-file = "bonjwa/pyramid.png"
-startx = 193
-starty = 140
-priority = 3
-
-[[structure]]
-name = "sukiandfriends"
-file = "bonjwa/sukiandfriends3.png"
-startx = 225
-starty = 130
-priority = 2
-
-[[structure]]
-name = "leaf"
-file = "bonjwa/acleaf.png"
-startx = 269
-starty = 132
-priority = 2
-
-[[structure]]
-name = "schagges"
-file = "bonjwa/schagges.png"
-startx = 289
-starty = 134
-priority = 2
-
-# endregion
-
-# region misc
-
-[[structure]]
-name = "free-iran-flagge"
-file = "bonjwa/Free_Iran_Flagge.png"
-startx = 1555
-starty = 381
-priority = 1
-
-[[structure]]
-name = "suun"
-file = "bonjwa/suun.png"
-startx = 237
-starty = 396
-priority = 1
-
-# endregion

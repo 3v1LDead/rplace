@@ -10,6 +10,7 @@
 // @downloadURL  https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js
 // ==/UserScript==
 
+addOverlayImage("https://raw.githubusercontent.com/3v1LDead/rplace/main/overlay.png")
 addOverlayImage("https://raw.githubusercontent.com/rplacebonjwa/rplace/main/overlay.png")
 addOverlayImage("https://place.army/overlay_target.png")
 
@@ -29,4 +30,3 @@ function addOverlayImage(url) {
     overlayImage.src = url + "?" + Date.now()
   }, 30000);
 }
-
