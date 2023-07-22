@@ -6,7 +6,7 @@ import os
 from PIL import Image
 
 canvas_edge_x = 1000
-canvas_edge_y = 500
+canvas_edge_y = 1000
 
 COLOR_MAPPINGS = {
 	'#6D001A': 0,
