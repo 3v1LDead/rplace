@@ -5,9 +5,9 @@
 // @description  try to take over the canvas! Combination of Bonjwa and r/placeDE template
 // @author       Chris-GW, nama17, Kloroller_DE, vertigo, Sockenschuh, 3v1LDead
 // @match        https://garlic-bread.reddit.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=www.bonjwa.de
-// @updateURL    https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js
-// @downloadURL  https://github.com/rplacebonjwa/rplace/raw/main/overlay.user.js
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=oskarpannier.com
+// @updateURL    https://github.com/3v1LDead/rplace/raw/main/overlay.user.js
+// @downloadURL  https://github.com/3v1LDead/rplace/raw/main/overlay.user.js
 // ==/UserScript==
 
 addOverlayImage("https://raw.githubusercontent.com/3v1LDead/rplace/main/overlay.png")
