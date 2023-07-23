@@ -11,6 +11,7 @@
 // ==/UserScript==
 
 addOverlayImage("https://raw.githubusercontent.com/3v1LDead/rplace/main/overlay.png")
+addOverlayImage("https://raw.githubusercontent.com/FeLuckLP/rplace/main/overlay.png")
 addOverlayImage("https://raw.githubusercontent.com/rplacebonjwa/rplace/main/overlay.png")
 addOverlayImage("https://place.army/overlay_target.png")
 
