@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Schagges Community + Bonjwa + r/placeDE Template
+// @name         Schagges Community + Gronkh + Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      15
-// @description  try to take over the canvas! Combination of Schagges, Bonjwa and r/placeDE template
+// @version      16
+// @description  try to take over the canvas! Combination of Schagges, Gronkh, Bonjwa and r/placeDE template
 // @author       Chris-GW + nama17 + Kloroller_DE + vertigo + Sockenschuh (for Bonjwa), 3v1LDead (for Schagges)
 // @match        https://garlic-bread.reddit.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=oskarpannier.com
@@ -22,7 +22,7 @@ function addOverlayImage(url) {
       const canvasContainer = document.querySelector("garlic-bread-embed").shadowRoot.querySelector("div.layout").querySelector("garlic-bread-canvas").shadowRoot.querySelector("div.container");
       overlayImage = document.createElement("img");
       overlayImage.src = url + "?" + Date.now()
-      overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1500px;pointerEvents: 'none';`;
+      overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;pointerEvents: 'none';`;
       canvasContainer.appendChild(overlayImage);
     }, false);
   }
