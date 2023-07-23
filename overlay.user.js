@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Schagges Community + Bonjwa + r/placeDE Template
 // @namespace    http://tampermonkey.net/
-// @version      14
+// @version      15
 // @description  try to take over the canvas! Combination of Schagges, Bonjwa and r/placeDE template
 // @author       Chris-GW + nama17 + Kloroller_DE + vertigo + Sockenschuh (for Bonjwa), 3v1LDead (for Schagges)
 // @match        https://garlic-bread.reddit.com/*
