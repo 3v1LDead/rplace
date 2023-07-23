@@ -5,8 +5,8 @@ import toml
 import os
 from PIL import Image
 
-canvas_edge_x = 1000
-canvas_edge_y = 1000
+CANVAS_EDGE_X = -1000
+CANVAS_EDGE_Y = -1000
 
 COLOR_MAPPINGS = {
 	'#6D001A': 0,
@@ -73,8 +73,8 @@ def create_structure(image, priority_mask, startx, starty, structure_priority, i
             return
         used_pixels.add((x,y))
         pixels.append({
-                        "x": x + canvas_edge_x,
-                        "y": y + canvas_edge_y,
+                        "x": x - CANVAS_EDGE_X,
+                        "y": y - CANVAS_EDGE_Y,
                         "color": color,
                         "priority": pixel_priority,
                     })
