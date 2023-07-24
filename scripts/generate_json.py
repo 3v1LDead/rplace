@@ -5,7 +5,7 @@ import toml
 import os
 from PIL import Image
 
-CANVAS_EDGE_X = -1000
+CANVAS_EDGE_X = -1500
 CANVAS_EDGE_Y = -1000
 
 COLOR_MAPPINGS = {
