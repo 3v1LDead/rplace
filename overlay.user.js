@@ -22,7 +22,7 @@ function addOverlayImage(url) {
       const canvasContainer = document.querySelector("garlic-bread-embed").shadowRoot.querySelector("div.layout").querySelector("garlic-bread-canvas").shadowRoot.querySelector("div.container");
       overlayImage = document.createElement("img");
       overlayImage.src = url + "?" + Date.now()
-      overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2500px;height: 2000px;pointerEvents: 'none';`;
+      overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 3000px;height: 2000px;pointerEvents: 'none';`;
       canvasContainer.appendChild(overlayImage);
     }, false);
   }
